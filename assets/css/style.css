@@ -3,7 +3,28 @@ body {
     margin: 0;
     background: #faf7f2;
     color: #3a2e2e;
+
+    display: flex;
+    flex-direction: column;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.map-placeholder {
+    width: 100%;
+    max-width: 1300px;
+    margin: 5px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
 
 header {
     background: #3c2415;
