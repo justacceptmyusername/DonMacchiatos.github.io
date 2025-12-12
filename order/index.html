@@ -25,11 +25,22 @@
 </header>
 <main>
 <section class="cart-container">
-    <h2>Your Cart</h2>
-    <div id="cart-items"></div>
-    <a class="btn" href="checkout.html">Proceed to Checkout</a>
+    
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <p class="cart-subtext">Review your items before checkout.</p>
+    </div>
+
+    <div id="cart-items" class="cart-items-box"></div>
+
+    <div class="cart-actions">
+        <a class="btn primary-btn" href="checkout.html">Proceed to Checkout</a>
+        <button class="btn secondary-btn" id="clear-cart">Clear Cart</button>
+    </div>
+
 </section>
 </main>
+
 
 <footer>
     <p>© 2025 Don Macchiatos</p>

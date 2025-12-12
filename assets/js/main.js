@@ -10,6 +10,14 @@ const PRODUCTS = {
     "latte": {
         name: "Latte",
         desc: "Smooth espresso with steamed milk.",
+    },
+    "darkforgeroast": {
+        name: "Dark forge roast",
+        desc: "Right bitter taste and balanced blend.",
+    },
+    "emberlatte": {
+        name: "Ember Latte",
+        desc: "Smooth espresso with steamed milk and a hint of maple.",
     }
 };
 
@@ -30,6 +38,14 @@ if (location.pathname.includes("details.html")) {
         };
     }
 }
+
+if (document.getElementById("clear-cart")) {
+    document.getElementById("clear-cart").onclick = () => {
+        localStorage.removeItem("cart");
+        location.reload();
+    };
+}
+
 
 if (location.pathname.includes("order/index.html")) {
     const cartElement = document.getElementById("cart-items");

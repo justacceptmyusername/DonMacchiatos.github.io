@@ -24,22 +24,34 @@
 </header>
 <main>
 <section class="account-panel">
-    <h2>Signup / Login</h2>
-    <input placeholder="Email">
-    <input placeholder="Password">
 
-    <button class="btn">Login</button>
+    <div class="auth-box">
+        <h2>Account Access</h2>
+        <form class="auth-form">
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
 
-    <h3>Personal Information</h3>
-    <p>Name: Rayven Pahignalo</p>
+            <button class="btn primary-btn">Login</button>
+        </form>
+    </div>
 
-    <h3>Order History</h3>
-    <ul>
-        <li>Caramel Macchiato - Jan 2025</li>
-        <li>Americano - Feb 2025</li>
-    </ul>
+    <div class="profile-box">
+        <h3>Personal Information</h3>
+        <p><strong>Name:</strong> Rayven Pahignalo</p>
+        <p><strong>Email:</strong> rayven@gmail.com</p>
+    </div>
+
+    <div class="orders-box">
+        <h3>Order History</h3>
+        <ul>
+            <li>Caramel Macchiato <span class="order-date">• Jan 2025</span></li>
+            <li>Americano <span class="order-date">• Feb 2025</span></li>
+        </ul>
+    </div>
+
 </section>
 </main>
+
 
 <footer>
     <p>© 2025 Don Macchiatos</p>
