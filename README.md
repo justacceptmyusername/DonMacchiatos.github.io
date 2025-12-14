@@ -48,3 +48,10 @@ To establish an online presence for Don Macchiatos, promote coffee products and 
 * Managing sessions for basic authentication
 * Understanding Git concepts such as tracked vs untracked files
 
+## Timeline
+| Phase | Task | Date |
+| Proposal | Planning & wireframe | Nov 29, 2025 |
+| Development | Setting up Github Repository | Dec 3, 2025 |
+| Deployment | Completing the css, js, html | Dec 10, 2025 |
+| Submission | Final documentation | Dec 12, 2025
+
